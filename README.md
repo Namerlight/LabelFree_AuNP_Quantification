@@ -2,6 +2,8 @@
 
 Using Deep Learning to count the number of AuNPs in a live cell image.
 
+
+
 ## Requirements and Setup
 Python 3.9 and Pytorch 2.1.2+cu118 have been used.
 
@@ -20,6 +22,7 @@ Please contact the authors for access to the data used for training the models.
 You can download the [MC-CNN model](https://drive.google.com/file/d/1tkbzfbDVlR2rvheVKT8jPHaY3hQJdVKK/view?usp=sharing) here. If the link does not work, please contact the authors. 
 
 ### Count AuNPs
+
 Put images for counting in a folder.
 
 In `scripts/asmm-cell-npns/infer.py`, change the `model path` in Line 17 to where you saved the above model.
@@ -32,8 +35,12 @@ Finally, run the script
 python scripts/asmm-cell-npns/infer.py run
 ```
 
+#### To-Do
+- [ ] Update this with a command line/argument based implementation for calling inference.
+- [ ] Investigate PyImageJ and implement this as an ImageJ plugin if feasible.
+
 ### Citation
 
 If you use any of the code, trained models or data, please cite the paper.
 
-> Mohsin, A. S. M. and Choudhury, S. H. (2024). "A label free quantification of gold nanoparticle at the single cell level using multi-column convolutional neural network (MC-CNN)," *Currently in Review*
+> Mohsin, A. S. M. and Choudhury, S. H. (2024). "A label free quantification of gold nanoparticle at the single cell level using multi-column convolutional neural network (MC-CNN)," *The Analyst*
