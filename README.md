@@ -14,14 +14,14 @@ To install, set up a virtual environment using pip. Then install required librar
 pip install -r requirements.txt
 ```
 
-### Data
+## Data
 Please contact the authors for access to the data used for training the models.
 
-### Models
+## Models
 
 You can download the [MC-CNN model](https://drive.google.com/file/d/1tkbzfbDVlR2rvheVKT8jPHaY3hQJdVKK/view?usp=sharing) here. If the link does not work, please contact the authors. 
 
-### Count AuNPs
+## Count AuNPs
 
 Put images for counting in a folder.
 
@@ -35,11 +35,11 @@ Finally, run the script
 python scripts/asmm-cell-npns/infer.py run
 ```
 
-#### To-Do
+## To-Do
 - [ ] Update this with a command line/argument based implementation for calling inference.
 - [ ] Investigate PyImageJ and implement this as an ImageJ plugin if feasible.
 
-### Citation
+## Citation
 
 If you use any of the code, trained models or data, please cite the paper.
 
