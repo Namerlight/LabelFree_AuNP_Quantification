@@ -2,9 +2,7 @@
 
 Using Deep Learning to count the number of AuNPs in a live cell image.
 
-
-
-## Requirements and Setup
+### Requirements and Setup
 Python 3.9 and Pytorch 2.1.2+cu118 have been used.
 
 See `requirements.txt` for other python libraries used.
@@ -14,14 +12,14 @@ To install, set up a virtual environment using pip. Then install required librar
 pip install -r requirements.txt
 ```
 
-## Data
+### Data
 Please contact the authors for access to the data used for training the models.
 
-## Models
+### Models
 
 You can download the [MC-CNN model](https://drive.google.com/file/d/1tkbzfbDVlR2rvheVKT8jPHaY3hQJdVKK/view?usp=sharing) here. If the link does not work, please contact the authors. 
 
-## Count AuNPs
+### Count AuNPs
 
 Put images for counting in a folder.
 
